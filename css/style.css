@@ -858,8 +858,7 @@ pre {
 /* overriding the content for a mobile screen size */
 @media (max-width: 480px) {
   .kp {
-    background-image: url(images/pic.png)!important;
-
+    background-image: url(/images/pic.png)!important;
   }
 
   .overlay {
