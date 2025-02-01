@@ -854,6 +854,42 @@ pre {
   .offset-sm-11 {
     margin-left: 91.66667%; } }
 
+
+/* overriding the content for a mobile screen size */
+@media (max-width: 480px) {
+  .kp {
+    background-image: url(/images/pic.png)!important;
+
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  }
+
+  .text {
+    margin-top: 400px;
+    max-height: 40% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .text h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .text span {
+    font-size: 1.5rem !important;
+  }
+
+  .text h2 {
+    font-size: 1rem !important;
+  }
+
+  .text a {
+    font-size: 0.4rem !important;
+  }
+}
+
 @media (min-width: 768px) {
   .col-md {
     -ms-flex-preferred-size: 0;
